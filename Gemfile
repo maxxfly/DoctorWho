@@ -8,6 +8,7 @@ gem 'mysql2'
 
 gem 'will_paginate'
 gem 'simple_form'
+gem 'country_select'
 
 gem 'geocoder'
 gem 'compass'

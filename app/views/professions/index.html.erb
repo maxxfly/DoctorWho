@@ -1,0 +1,11 @@
+<br/><br/>
+
+<%= link_to "Ajout une profession", new_profession_url, :class => "btn btn-primary btn-lg"%>
+
+<br/><br/>
+
+<ul>
+	<% Profession.all.each do |profession| %>
+		<li><%= profession.name %></li>
+	<% end %>
+</ul>

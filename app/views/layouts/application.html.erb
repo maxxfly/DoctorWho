@@ -8,7 +8,19 @@
 </head>
 <body>
 
+<div class="page-header">
+  <h1>Doctor Who</h1>
+</div>
+
+<ul class="nav nav-tabs">
+  <li role="presentation"><%= link_to "Docteurs", doctors_path %></li>
+  <li role="presentation"><%= link_to "Professions", professions_path %></li>
+</ul>
+
 <%= yield %>
+
+
+
 
 </body>
 </html>
