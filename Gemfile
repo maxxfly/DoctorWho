@@ -13,6 +13,7 @@ gem 'country_select'
 gem 'geocoder'
 gem 'compass'
 
+
 gem 'bootstrap-sass'
 
 # Use SCSS for stylesheets
